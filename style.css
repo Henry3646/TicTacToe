@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.title {
+    font-size: 90px;
+    font-family: 'Roboto' , sans-serif;
+}
+
+#info {
+    font-size: 30px;
+    font-family: 'Roboto' , sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 80px;
+}
+
+.board{
+    display: grid;
+    grid-template-columns: repeat(3, 175px);
+    grid-template-rows: repeat(3, 175px);
+}
+
+.gridel {
+    display: flex;
+    border: 2px solid black;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.gridel:hover {
+    cursor: pointer;
+}
